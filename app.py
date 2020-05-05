@@ -19,12 +19,12 @@ def hello():
 
 
 @app.route("/assignment")
-def hello():
+def assignment():
     return "Hello World!"
 
 
 @app.route("/class")
-def hello():
+def my_class():
     return "Hello World!"
 
 
