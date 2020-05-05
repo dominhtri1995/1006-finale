@@ -20,12 +20,12 @@ def hello():
 
 @app.route("/assignment")
 def assignment():
-    return "Hello World!"
+    return render_template("assignment.html")
 
 
 @app.route("/class")
 def my_class():
-    return "Hello World!"
+    return render_template("class.html")
 
 
 # start the server
