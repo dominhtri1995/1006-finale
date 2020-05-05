@@ -18,6 +18,16 @@ def hello():
     return "Hello World!"
 
 
+@app.route("/assignment")
+def hello():
+    return "Hello World!"
+
+
+@app.route("/class")
+def hello():
+    return "Hello World!"
+
+
 # start the server
 if __name__ == "__main__":
     app.run()
